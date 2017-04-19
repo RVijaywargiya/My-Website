@@ -1,0 +1,75 @@
+body {
+    background-image: url(Rajat V.jpg) repeat 0 0;
+}
+
+#header {    
+    background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+    background-color: aqua;
+}
+
+li {
+    display: inline-block;
+}
+
+a:link {
+    font-weight: bold;    
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+form {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+	margin-bottom: 50%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    border: 2px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+	font-weight: bold;
+}
+
+#middle_content {
+    margin-top: 10%;
+    background-image: url("F:\DOCUMENTS\Rajat V.jpeg");
+}
+
+#middle_content>img {
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+#middle_content>p {
+    margin-left: 20px;
+    font-weight: bold;
+}
